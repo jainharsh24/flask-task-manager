@@ -1,7 +1,7 @@
 
 from app import create_app , db
 
-from app.models import Task
+from app.models import Task,User
 
 app = create_app()
 

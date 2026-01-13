@@ -1,6 +1,25 @@
 {% extends "base.html" %}
 
-{% block content %}
-<p>Registration Coming Soon....</p>
-{% endblock %}
+{% block title %} Registration {% endblock %}
 
+{% block content %}
+<div class="login-box">
+    <h2>Register</h2>
+    <form method="POST">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <button type="submit" class="btn">Register</button>
+        <a href="/login" class="btn">Login</a>
+        
+
+    </form>
+</div>
+{% endblock %}
