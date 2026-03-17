@@ -20,16 +20,13 @@ The project also includes session-based authentication and a profile menu in the
 - Auto logout after server restart
 
 ## Screenshots
-Leave space below to add screenshots later.
 
 ### Login Page
-Add screenshot here
+![Login](ss/login-page.png)
 
 ### Dashboard
-Add screenshot here
+![Dashboard](ss/dashboard.png)
 
-### Profile Menu
-Add screenshot here
 
 ## Steps to Download and Run
 1. Clone the repository:
