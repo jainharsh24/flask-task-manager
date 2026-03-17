@@ -1,148 +1,149 @@
-
-body{
+body {
     margin: 0;
-    font-family: 'segoe UI', tahoma , Geneva , verdana , sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background: #fff;
 }
 
-.container{
-    max-width : 800px;
+.container {
+    max-width: 800px;
     margin: auto;
     padding: 20px;
 }
 
-
-/* Header */
 header {
-    background: linear-gradient(to right, #0062e6, #33Aeff);
-    color : white;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: linear-gradient(to right, #0062e6, #33aeff);
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-header h1{
+header h1 {
     margin: 0;
     font-size: 28px;
     letter-spacing: 1px;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
-nav a:hover{
+nav a:hover {
     color: yellow;
 }
 
-.header-bar{
+.header-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
 
-.profile-menu{
+.profile-menu {
     position: relative;
 }
 
-.profile-menu summary{
+.profile-menu summary {
     list-style: none;
 }
 
-.profile-menu summary::-webkit-details-marker{
+.profile-menu summary::-webkit-details-marker {
     display: none;
 }
 
-.profile-trigger{
+.profile-trigger {
     display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
 }
 
-.profile-icon{
+.profile-icon {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: rgba(255,255,255,0.2);
-    border: 2px solid rgba(255,255,255,0.55);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.55);
     display: inline-flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
 }
 
-.profile-name{
+.profile-name {
     font-weight: 600;
 }
 
-.profile-dropdown{
+.profile-dropdown {
     position: absolute;
     top: calc(100% + 10px);
     right: 0;
     min-width: 140px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 10px 24px rgba(0,0,0,0.16);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
     padding: 8px 0;
     z-index: 10;
 }
 
-.profile-dropdown a{
+.profile-dropdown a {
     color: #343a40;
     display: block;
     padding: 10px 16px;
 }
 
-.profile-dropdown a:hover{
+.profile-dropdown a:hover {
     color: #343a40;
     background-color: #f2f6ff;
 }
 
-/* footer */
-footer{
+footer {
     background-color: #343a40;
-    color:white;
+    color: white;
     padding: 15px 0;
     text-align: center;
     font-size: 14px;
     margin-top: 60px;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
 }
 
-
-footer p{
+footer p {
     margin: 0;
 }
 
-/* flash message*/
-.flash.success {color: green; }
-.flash.danger{ color:red;}
-.flash.info{color:blue;}
+.flash.success {
+    color: green;
+}
 
-/* Login form */
-.login-box{
+.flash.danger {
+    color: red;
+}
+
+.flash.info {
+    color: blue;
+}
+
+.login-box {
     max-width: 400px;
     background-color: white;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.login-box h2{
+.login-box h2 {
     text-align: center;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
-.form-group{
+.form-group {
     margin-bottom: 20px;
 }
 
@@ -152,17 +153,17 @@ footer p{
     margin-bottom: 6px;
 }
 
-.form-group input{
-    width:100%;
-    padding:12px;
-    font-size:16px;
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
     border-radius: 4px;
     border: 1px solid #ccc;
     box-sizing: border-box;
     margin-bottom: 6px;
 }
 
-.btn{
+.btn {
     background-color: #007bff;
     color: white;
     border: none;
@@ -173,17 +174,17 @@ footer p{
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #0056b3;
 }
 
-.task-box{
-    max-width:700px;
-    margin:40px auto;
-    background-color:  white;
+.task-box {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
     padding: 25px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .task-form {
@@ -198,116 +199,100 @@ footer p{
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
-
 }
 
 .task-form .btn {
     padding: 12px 20px;
-    font-size:  16px;
+    font-size: 16px;
 }
 
-.task-table{
+.task-table {
     width: 100%;
-    border-collapse:  collapse;
+    border-collapse: collapse;
 }
 
 .task-table th,
-.task-table td{
+.task-table td {
     text-align: left;
     padding: 12px;
     border-bottom: 1px solid #ddd;
 }
 
-.task-table th{
-    background-color:  #f2f2f2;
+.task-table th {
+    background-color: #f2f2f2;
 }
 
 .btn-delete {
     background-color: #dc3545;
-    color:  white;
-    padding:  6px 12px;
+    color: white;
+    padding: 6px 12px;
     font-size: 14px;
     border-radius: 4px;
     text-decoration: none;
-
 }
-
 
 .btn-delete:hover {
     background-color: #c82333;
 }
 
-
 .badge {
     padding: 5px 10px;
     border-radius: 4px;
     font-weight: bold;
-    color:white;
-
+    color: white;
 }
 
 .badge.pending {
     background-color: #ffc107;
 }
 
-.badge.working{
-    background-color:  #17a2b8;
+.badge.working {
+    background-color: #17a2b8;
 }
 
-.badge.done{
-    background-color:  #28a745;
+.badge.done {
+    background-color: #28a745;
 }
 
-.btn-small{
+.btn-small {
     font-size: 12px;
     padding: 6px 12px;
     border: none;
     background-color: #6c757d;
     color: white;
     border-radius: 4px;
-    cursor:  pointer;
+    cursor: pointer;
 }
 
-.btn-small:hover{
-    background-color:  #495057;
+.btn-small:hover {
+    background-color: #495057;
 }
 
-.btn-clear{
+.btn-clear {
     background-color: #dc3545;
     margin-bottom: 10px;
 }
 
-.btn-clear:hover{
+.btn-clear:hover {
     background-color: #c82333;
 }
 
-@media (max-width: 640px){
-    .header-bar{
+@media (max-width: 640px) {
+    .header-bar {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    nav{
+    nav {
         width: 100%;
         justify-content: space-between;
         flex-wrap: wrap;
     }
 
-    .profile-name{
+    .profile-name {
         max-width: 180px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
